@@ -1,0 +1,20 @@
+[package]
+name = "multibin_lib"
+version = "0.1.0"
+authors = ["Brendan A R Sechter <sgeos@hotmail.com>"]
+edition = "2018"
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rlib_main"
+path = "src/rlib_main.rs"
+
+[[bin]]
+name = "ffi_main"
+path = "src/ffi_main.rs"
+
+[dependencies]
+
